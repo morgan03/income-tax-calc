@@ -69,7 +69,6 @@ class Employee(object):
             Your Take Home Pay: £{:0.2f}
                         '''.format(self.first, self.last, basic_payable + high_payable + adv_payable, pay - (basic_payable + high_payable + adv_payable))
 
-# Access records or add another person to the database
 print('Please Enter Your First Name, Last Name and Gross (Pre-tax) Income For The Year.')
 first_name = input('First Name: ')
 last_name = input('Last Name: ')
