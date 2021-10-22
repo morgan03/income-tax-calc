@@ -74,5 +74,5 @@ first_name = input('First Name: ')
 last_name = input('Last Name: ')
 pay = input('Gross Income: ')
 
-emp1 = Employee(first_name, last_name, pay)
-print(Employee.income_tax(emp1, emp1.pay))
+first_name = Employee(first_name, last_name, pay)
+print(Employee.income_tax(first_name, first_name.pay))
